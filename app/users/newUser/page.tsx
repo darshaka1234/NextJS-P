@@ -1,7 +1,12 @@
 import React from "react";
+import AddButton from "./AddButton";
 
 const NewUser = () => {
-	return <div>NewUser</div>;
+	return (
+		<div>
+			<AddButton />
+		</div>
+	);
 };
 
 export default NewUser;
